@@ -1,0 +1,90 @@
+body {
+    background-color: #1a1919;
+}
+
+.container {
+    display: flex;
+    margin: 100px 100px 100px 800px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 900px;
+    align-items: center;
+    background-color: white;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(143, 142, 142, 0.6);
+    border-radius: 20px;
+}
+
+.container .login img {
+    margin: 90px 0px 180px 140px; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+}
+
+.container .login .id {
+    display: flex;
+    margin: 50px 40px;
+    width: 400px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #000;
+    text-align: left;
+}
+
+.container .login .password {
+    margin: 0px 40px;
+    width: 400px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.container .login .check-box {
+    display: flex;
+    font-size: 15px;
+    margin: 30px 0px 10px 80px;
+    column-gap: 10px;
+    align-items: center;
+    accent-color: rgb(99, 99, 252);
+}
+
+.container .login button {
+    border: none;
+    background-color: rgb(57, 115, 223);
+    color: white;
+    border-radius: 10px;
+}
+.container .login button:hover {
+    background-color: rgb(73, 121, 209);
+    cursor: pointer;
+}
+
+.container .login .btn .login {
+    display: flex;
+    margin: 30px 0px 0px 50px;
+    padding: 15px 170px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+}
+.container .login .btn .account {
+    display: flex;
+    margin: 15px 0px 0px 50px;
+    padding: 15px 161px;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+}
+.container .login .btn a {
+    text-decoration: none;
+}
+
+.copy {
+    margin: 60px auto;
+    text-align: center;
+    font-size: 12px;
+}

@@ -6,7 +6,7 @@
     margin: auto;
 }
 
-.item {
+.card {
     /* m10-20-30-40 */
     margin: 10px 20px 30px 40px; /* 위,오,아래,왼 */
     /* margin: 10px 20px 30px; */      /* 위, (좌우), 아래 */
