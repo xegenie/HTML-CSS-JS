@@ -34,4 +34,5 @@ body {
     --text0normal : 16px;
     /* 컨테이너 사이즈 */
     --container-size : 1200px;
+    --container-lg-size : 1400px;
 }
